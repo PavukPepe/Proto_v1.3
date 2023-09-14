@@ -1,0 +1,6 @@
+body {
+	height: 100%;
+  background-image: url('img\Fon.jpg');
+	background-repeat: repeat;
+	background-size: cover;
+}

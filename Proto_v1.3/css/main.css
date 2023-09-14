@@ -1,74 +1,68 @@
 .container {
-    max-width: 1536px;
-    max-height: 864px;
-    height: 90vh;
-    width: 80%;
-    margin:80px auto;
-    border-radius: 20px;
-    background-color: #E3DCD6;
-    overflow: hidden;
+	max-width: 1536px;
+	max-height: 864px;
+	height: 90vh;
+	width: 80%;
+	margin: 80px auto;
+	border-radius: 20px;
+	background-color: #e3dcd6;
+	overflow: hidden;
 }
 
-.text_container{
-    margin: 7%;
+.text_container {
+	margin: 7%;
 }
 
-.container_content{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.container_content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 .text_sod {
-    font-size: 20px;
-    color: #000000;
-    position: relative;
-    text-align: left;
-    font-family: Forum, sans-serif;
+	font-size: 20px;
+	color: #000000;
+	position: relative;
+	text-align: left;
+	font-family: Forum, sans-serif;
 }
 
 .dot-list {
-    list-style-type: none;
-    padding: 0;
-    font-size: 40px;
-    font-family: Forum, sans-serif;
-  }
-  
-  .dot-list li::before {
-    content: "•";
-    margin-right: 0.5em;
-    font-size: 40px;
-    
-  }
-
-.contacts{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: column;
-
+	list-style-type: none;
+	padding: 0;
+	font-size: 40px;
+	font-family: Forum, sans-serif;
 }
 
-footer{
-    background-color: #6D5146;
-
-}
-body{
-  height: 100%;
+.dot-list li::before {
+	content: '•';
+	margin-right: 0.5em;
+	font-size: 40px;
 }
 
-.h3_white{
-    color: #ffffff;
+.contacts {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
 }
 
-table{
-  padding-top: 50px;
-  padding-bottom: 50px;
+footer {
+	background-color: #6d5146;
+}
+
+.h3_white {
+	color: #ffffff;
+}
+
+table {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 table td {
-      padding: 40px;
-       /* Задайте нужное расстояние вокруг содержимого ячейки */
-   }
+	padding: 40px;
+	/* Задайте нужное расстояние вокруг содержимого ячейки */
+}
 
 .rounded-corner {
-  border-radius: 2.5% 0 0 2.5%;
+	border-radius: 2.5% 0 0 2.5%;
 }
